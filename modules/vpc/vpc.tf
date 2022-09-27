@@ -1,4 +1,10 @@
 #Custom VPC for my Project 
+
+provider "aws" {
+  access_key = "AKIASMSIZOF4QD2NTPB6"
+  secret_key = ""
+  region     = "us-east-2"
+}
 module "levelup-vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
